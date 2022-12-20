@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.subtitle {
+  font-size: 35px;
+  text-align: center;
+}
+
+.statistics {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.item {
+  font-size: 16px;
+}
+.total {
+  font-size: 25px;
+  font-weight: 700;
+}
+.percent {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.box {
+  display: flex;
+  /* align-self: flex-start; */
+
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+.box > p {
+  font-size: 20px;
+  font-weight: 500;
+}
