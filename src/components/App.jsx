@@ -48,7 +48,7 @@ export function App() {
           neutral={neutral}
           bad={bad}
           total={countTotalFeedback()}
-          positive={countPositiveFeedbackPercentage()}
+          positive={countPositiveFeedbackPercentage(countTotalFeedback())}
         />
       ) : (
         <Notification message="There is no feedback yet" />
